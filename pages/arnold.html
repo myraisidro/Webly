@@ -69,7 +69,7 @@
         <div class="col s12 m2 l4 people-list" id="people-list" style="border-right: 1px solid #e0e0e0 !important;">
 
           <!-- Search Bar -->
-          <div class="hide-on-med-only">
+          <div class="hide-on-med-and-down">
               <div class="input-field col s10">
                 <input id="search" type="search" required>
                 <label class="label-icon" for="search"><i class="material-icons">search</i></label>
@@ -83,10 +83,11 @@
               </div>
           </div>
 
+          <div class="hide-on-small-only">
             <table id="chat-list" class="table bordered highlight white grey">
               <tbody class="chat-list">
 
-                  <tr class="active-message hide-on-small-and-down">
+                  <tr >
                       <td width="60px;"><a href="messages.html" ><img src="../img/augustus.jpg" class="responsive-img circle"></a></td>
                       <td  class="active-link hide-on-med-only"> 
                         <a href="messages.html" >
@@ -96,7 +97,7 @@
                       </td>
                     </tr>
 
-                <tr>
+                <tr >
                   <td width="60px;"><a href="dwayne.html" ><img src="../img/dwayne.jpg" class="responsive-img circle"></a></td>
                   <td  class="active-link hide-on-med-only"> 
                     <a href="dwayne.html" >
@@ -106,7 +107,7 @@
                   </td>
                 </tr>
 
-                <tr>
+                <tr >
                   <td width="60px;"><a href="hannah.html" ><img src="../img/hannah.jpg" class="responsive-img circle" ></td>  
                   <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
                     <a href="hannah.html" >
@@ -116,7 +117,7 @@
                   </td>
                 </tr>
  
-                <tr>
+                <tr class="active-message">
                     <td width="60px;"><a href="arnold.html" ><img src="../img/arnold3.jpg" class="responsive-img circle"></a></td>
                     <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
                         <a href="arnold.html" >
@@ -166,17 +167,18 @@
               
               </tbody>
             </table>
+        </div>
 
             
         </div>
 
         <!-- Chat -->
-        <div class="chat col s12 m10 l8 hide-on-small-only">
+        <div class="chat col s12 m10 l8 ">
             <table class="right-align border-bottom">
                 <thead> 
                     <tr class="border-bottom">
-                      <td width="60px;"><img src="../img/augustus.jpg" class="circle responsive-img" width="55px;"></td>
-                        <td ><h6 style="font-weight: bold;">Augustus Waters <br> <label class="green-text">online</label></h6></td>
+                      <td width="60px;"><img src="../img/arnold3.jpg" class="circle responsive-img" width="55px;"></td>
+                        <td ><h6 style="font-weight: bold;">Arnold Schwarzenegger <br> <label>1 min</label></h6></td>
                       <td>
                         <label class="valign-wrapper right">
                           <i class="fas fa-phone small green-text"></i>
@@ -185,14 +187,14 @@
                     </tr>
                   </thead>
 
-                  <tbody class="chat-section">
+                  <tbody class="chat-section" >
                     <tr >    
                       <td>
-                        <div class="row row-1" style="margin-bottom: 0;">
-                          <div class="col s12 m2 l1" width="70px;"><a href="messages.html" ><img src="../img/augustus.jpg" class="responsive-img circle"></a></div>
-                          <div class="col s12 m6 l3">
+                        <div class="row row-1" >
+                          <div class="col s2 m2 l1" width="70px;"><a href="messages.html" ><img src="../img/arnold3.jpg" class="responsive-img circle"></a></div>
+                          <div class="col s7 m8 l4">
                               <div class="grey lighten-1 grey-text text-darken-4" style="border-radius: 25px; padding: 15px; margin: 0px;">
-                                I am here for you. 
+                             Hasta la vista, baby!
                               </div>
                               <div class="message-data-from right">
                                 <label class="message-data-time right" style="padding-right: 1px;">10:10 AM, Today</label> 
@@ -201,78 +203,14 @@
                         </div>
                       </td>
                     </tr> 
-                    <tr>    
-                      <td style="padding-top:0px; padding-bottom:0px;">
-                        <div class="row row-2" style="margin-bottom: 3px;">
-                          <div class="col s12 m6 offset-m6">
-                              <div class="blue white-text" style="border-radius: 25px; padding: 20px; margin: 0px;">
-                                  I'm going through a tough time so it means a lot
-                              </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr> 
-                    <tr>    
-                      <td style="padding-top:0px; padding-bottom:0px;">
-                        <div class="row row-3">
-                          <div class="col s12 m6 offset-m6" >
-                              <div class="blue white-text" style="border-radius: 25px; padding: 20px; margin: 0px;">
-                                And sorry, I lost all my contacts who is this?
-                              </div>
-                              <div class="message-data-from left">
-                                <label class="message-data-time right" style="padding-right: 1px;">10:10 AM, Today</label> 
-                              </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr> 
-                    <tr>    
-                        <td style="padding-top:0px; padding-bottom:0px;">
-                          <div class="row row-1" style="margin-bottom: 0px;">
-                            <div class="col s12 m2 l1" width="70px;"><a href="messages.html" ><img src="../img/augustus.jpg" class="responsive-img circle"></a></div>
-                            <div class="col s12 m5 l4">
-                                <div class="grey lighten-1 grey-text text-darken-4" style="border-radius: 25px; padding: 15px; margin: 0px;">
-                                  This is your Uber driver
-                                </div>
-                            </div>
-                          </div>
-                        </td>
-                      </tr> 
-                    <tr>    
-                        <td style="padding-top:0px; padding-bottom:0px;">
-                            <div class="row row-1">
-                              <div class="col s12 m2 l1" width="70px;"><a href="messages.html" ><img src="../img/augustus.jpg" class="responsive-img circle"></a></div>
-                              <div class="col s12 m5 l4">
-                                  <div class="grey lighten-1 grey-text text-darken-4" style="border-radius: 25px; padding: 15px; margin: 0px;">
-                                    I am here to pick you up
-                                  </div>
-                                  <div class="message-data-from right">
-                                    <label class="message-data-time right" style="padding-right: 1px;">10:10 AM, Today</label> 
-                                  </div>
-                              </div>
-                            </div>
-                          </td>
-                      </tr> 
-                      <tr>    
-                          <td>
-                            <div class="row row-6">
-                              <div class="col s12 m2 offset-m10">
-                                  <div class="blue white-text" style="border-radius: 25px; padding: 20px; margin: 0px;">
-                                    ohh
-                                  </div>
-                                  <div class="message-data-from left">
-                                    <label class="message-data-time right" style="padding-right: 1px;">10:10 AM, Today</label> 
-                                  </div>
-                              </div>
-                            </div>
-                          </td>
-                        </tr> 
+                     
+                     
                   </tbody>
 
             </table>
 
-            <div class="row input-message hide-on-small-and-down ">
-                <form class="col s12 m10 l12">
+            <div class="row input-message ">
+                <form class="col s10 m10 l12">
                     <div class=" input-field col s10 ">
                       <i class=" material-icons prefix">mode_edit</i>
                       <input type="text" id="todo"  data-length="120" >

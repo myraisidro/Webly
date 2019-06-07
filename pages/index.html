@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,50 +15,92 @@
 
   <!-- Header -->
 <header class="main-header">
-    <div class="navbar-fixed">
-    <nav class="white">
-      <div class="container">
-        <div class="nav-wrapper row">
-            <div class="col s12 m4">
-                <a href="#!" class="brand-logo grey-text text-darken-3">Web<span class="ly white-text blue">ly</span>
-                  <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
-                </a>
-                <a href="#!" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
+        <div class="navbar-fixed">
+        <nav class="white">
+          <div class="container">
+            <div class="nav-wrapper row">
+                <div class="col s12 m4">
+                    <a href="#!" class="brand-logo grey-text text-darken-3">Web<span class="ly white-text blue">ly</span>
+                      <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
+                    </a>
+                    <a href="#!" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
+                </div>
+                <div class="nav-wrapper col s12 m4">    
+                    <ul class="hide-on-med-and-down">
+                        <li><a href="index.html" class="actived">Posts</a></li>
+                        <li><a href="article.html" class="grey-text">Articles</a></li>
+                        <li><a href="saved.html" class="grey-text">Saved Posts</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="" class="dropdown-trigger waves-effect grey-text text-darken-5" data-activates='notification'>
+                            <i class="far fa-flag"></i>
+                        </a></li>
+                        <li>
+                            <a href="#" class="dropdown-trigger" data-activates='avatar'>
+                                <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+             
             </div>
-            <div class="nav-wrapper col s12 m4">    
-                <ul class="hide-on-med-and-down">
-                    <li><a href="index.html" class="actived">Posts</a></li>
-                    <li><a href="article.html" class="grey-text">Articles</a></li>
-                    <li><a href="saved.html" class="grey-text">Saved Posts</a></li>
-                </ul>
-            </div>
-            <div class="col s12 m4">
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="" class="waves-effect grey-text text-darken-5">
-                        <i class="far fa-flag"></i>
-                    </a></li>
-                    <li>
-                        <a href="#" class="dropdown-trigger" data-activates='avatar'>
-                            <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-         
+          </div>
+        </nav>
         </div>
-      </div>
-    </nav>
-    </div>
-
-    <!-- Dropdown Structure -->
-    <div class="">
-    <ul id="avatar" class="dropdown-content right">
-      <li><a href="profile.html" class="grey-text text-darken-3">My Profile</a></li>
-      <li class="divider"></li>
-      <li><a href="../login.html" class="grey-text text-darken-3">Logout</a></li>
-    </ul>
-  </header>
+    
+        <!-- Dropdown Structure -->
+        <div id="avatar" class="card dropdown-content right" style="font-size: 13px;">
+          <ul>
+            <li class="blue white-text border-bottom" style="padding:0 20px;"><p> <b> Hi John! </b> </p></li>
+            <li><a href="profile.html" class="grey-text text-darken-3">My Profile</a></li>
+            <li class="divider"></li>
+            <li><a href="../login.html" class="grey-text text-darken-3">Logout</a></li>
+          </ul>
+    
+          
+        </div>
+    
+        <!-- Notification -->
+        <div id="notification" class="card dropdown-content right" style="font-size: 13px;">
+          <ul>
+            <li class="blue white-text border-bottom" style="padding:0 20px;"><p> <b> Notification </b> </p></li>
+            <li>
+                <div class="row waves-effect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
+                    <div class="col s4"> <img src="../img/person4.jpg" class="circle" width="50px;"></div>
+                    <div class="col s8" style="padding: 0 0 0 0px;">
+                        <label class="black-text text-darken-3">Jane Doe</label> <br>
+                        <label class="black-text text-darken-3"><b>Commented on your post</b></label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row waves-effect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
+                    <div class="col s4"> <img src="../img/person2.jpg" class="circle" width="50px;"></div>
+                    <div class="col s8">
+                        <label class="black-text text-darken-3">John Smith</label> <br>
+                        <label class="black-text text-darken-3"><b>Saved your post</b></label>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="row waves-effect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
+                    <div class="col s4"> <img src="../img/person3.jpg" class="circle" width="50px;"></div>
+                    <div class="col s8">
+                        <label class="black-text text-darken-3">Jane Doe</label> <br>
+                        <label class="black-text text-darken-3"><b>Fave your post!</b></label>
+                    </div>
+                </div>
+            </li>
+          
+            
+          </ul>
+        </div>
+        
+    
+      </header>
 
   <!-- Contents -->
   <section class="section section-home">
@@ -101,31 +142,35 @@
           
           <!-- Posting -->
           <div class="row" style="margin-bottom: 0px;">
-            <div class="col s12">
-              <div class="card new-post card-border z-depth-0">
-                
-                <div class="card-tabs">
-                  <ul class="tabs tabs-fixed-width border-bottom">
-                    <li class="tab"><a href="#tab1" class="active grey-text text-darken-3"><i class="fas fa-pen blue-text"></i> Share an article</a></li>
-                    <li class="tab"><a href="#tab2" class="grey-text text-lighten-1"><i class="fas fa-image green-text"></i> Share a photo </a></li>
-                  </ul>
-                </div>
-
-                <div class="card-content">
-                  <div id="tab1" class="active">
-                    <input id="post" placeholder="Write Something ..." style="margin-bottom: 0; font-size:14px;"></i>
+                <div class="col s12">
+                  <div class="card new-post card-border z-depth-0">
+                    
+                    <div class="card-tabs">
+                      <ul class="tabs tabs-fixed-width border-bottom">
+                        <li class="tab"><a href="#tab1" class="active grey-text text-darken-3"><i class="fas fa-pen blue-text"></i> Share a post</a></li>
+                        <li class="tab"><a href="#tab2" class="active grey-text text-darken-3"><i class="far fa-newspaper amber-text"></i></i> Create an article</a></li>                    
+                      </ul>
+                    </div>
+    
+                    <div class="card-content">
+                      <div id="tab1" class="active">
+                        <input id="post" placeholder="Write Something ..." style="margin-bottom: 0; font-size:14px;"></i>
+                      </div>
+                      <div id="tab2">
+                        <!-- CK Editor -->
+                        <div class="input-field">
+                          <textarea name="" id="body" cols="30" rows="10" class="materialize-textarea"></textarea>
+                          <label for="body"></label>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="card-action" style="padding-top: 10px; padding-bottom: 30px; padding-right: 0;">
+                        <a id="post-it" href="#" class="right grey-text waves-effect" style="padding: 5px 8px; border-radius:2px;">Share</a>
+                    </div>
                   </div>
-                  <div id="tab2">
-                   <div class="box"><i class="fas fa-folder-plus fa-3x grey-text text-lighten-1"></i></div>
-                  </div>
-                </div>
-
-                <div class="card-action" style="padding-top: 10px; padding-bottom: 30px; padding-right: 0;">
-                    <a id="post-it" href="#" class="right grey-text waves-effect" style="padding: 5px 8px; border-radius:2px;">Share</a>
                 </div>
               </div>
-            </div>
-          </div>
 
           <div class="place-it-here row section-posted" style="margin-bottom: 0px;"></div>
 
@@ -188,7 +233,7 @@
                           <tr class="border-bottom">
                             <td width="50px;"><img src="../img/person3.jpg" class="circle responsive-img" width="55px;"></td>
                             <td><h6 style="margin-top:0;">Jane Doe <br> <label>Graphic Designer</label></h6></td>
-                            <td><label class="valign-wrapper right">30 minutes ago</label></td>
+                            <td><label class="valign-wrapper right">50 minutes ago</label></td>
                           </tr>
                         </tbody>
                       </table>
@@ -201,8 +246,8 @@
 
                   <div class="card-action icon-on-posts border-bottom" style="padding: 10px 10px 10px 10px;">
                       <label style="font-size: 12px;">
-                          <a href="#!" class="blue-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;"><i class="far fa-star"></i> 1.5k</a>
-                          <a href="#!" class="green-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;"><i class="far fa-comment-alt"></i> 500</a>
+                          <a href="#!" class="blue-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;"><i class="far fa-star"></i> 1k</a>
+                          <a href="#!" class="green-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;"><i class="far fa-comment-alt"></i> 250</a>
                           <a href="#!" class="amber-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;"><i class="far fa-bookmark"></i> 300</a>
                       </label>
                   </div>
@@ -212,16 +257,16 @@
                       <table class="comment-content">
                           <tbody>
                             <tr class="border-bottom row-of-comment">
-                              <td width="50px;"><img src="../img/person3.jpg" class="circle responsive-img" width="55px;"></td>
-                              <td><h6 style="margin-top:0;">Kenneth Smith <br> <label>Lorem ipsum dolor sit amet.</label></h6></td>
+                              <td width="50px;"><img src="../img/person9.jpg" class="circle responsive-img" width="55px;"></td>
+                              <td><h6 style="margin-top:0;">Kenneth Smith <br> <label>Wow! Great post, thanks for sharing. </label></h6></td>
                               <td><label id="delete-comment" class="valign-wrapper right red-text text-lighten-2" style="font-size:15px;"><i class="far fa-trash-alt"></i></label></td>
                               </td>
                             </tr>
 
                             <tr class="border-bottom row-of-comment">
                                 <tr class="border-bottom ">
-                                <td width="50px;"><img src="../img/person3.jpg" class="circle responsive-img" width="55px;"></td>
-                                <td><h6 style="margin-top:0;">Grace Love <br> <label>Lorem ipsum dolor sit amet.</label></h6></td>
+                                <td width="50px;"><img src="../img/person8.jpg" class="circle responsive-img" width="55px;"></td>
+                                <td><h6 style="margin-top:0;">Grace Love <br> <label>I like your post dear, hope we'll meet again soon.</label></h6></td>
                                 <td><label id="delete-comment" class="valign-wrapper right red-text text-lighten-2" style="font-size:15px;"><i class="far fa-trash-alt"></i></label></td>
                             </tr>
                             <tr>
@@ -273,11 +318,11 @@
                   <div class="card-action icon-on-posts border-bottom" style="padding: 10px 10px 10px 10px;">
                       <label style="font-size: 12px;">
                           <a href="#!" id="fave" class="blue-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;">
-                            <i class="far fa-star"></i> 1.5k</a>
+                            <i class="far fa-star"></i> 4k</a>
                           <a href="#!" class="green-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;">
-                            <i class="far fa-comment-alt"></i> 500</a>
+                            <i class="far fa-comment-alt"></i> 600</a>
                             <a href="#modal2" id="saved" class="amber-text text-lighten-1 waves-effect modal-trigger" style="padding:5px; border-radius:2px;">
-                                <i class="far fa-bookmark"></i> 300</a>
+                                <i class="far fa-bookmark"></i> 400</a>
                       </label>
                   </div>
 
@@ -309,7 +354,7 @@
                           <tr class="border-bottom">
                             <td width="50px;"><img src="../img/person2.jpg" class="circle responsive-img" width="55px;"></td>
                             <td><h6 style="margin-top:0;">Edward Curtis <br> <label>Web Designer</label></h6></td>
-                            <td><label class="valign-wrapper right">3 hours ago</label></td>
+                            <td><label class="valign-wrapper right">6 hours ago</label></td>
                           </tr>
                         </tbody>
                       </table>
@@ -330,11 +375,11 @@
                   <div class="card-action icon-on-posts" style="padding: 10px 10px 10px 10px;">
                       <label style="font-size: 12px;">
                           <a href="#!" class="blue-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;">
-                            <i class="far fa-star"></i> 1.5k</a>
+                            <i class="far fa-star"></i> 2k</a>
                           <a href="#!" class="green-text text-lighten-1 waves-effect" style="padding:5px; border-radius:2px;">
-                            <i class="far fa-comment-alt"></i> 500</a>
+                            <i class="far fa-comment-alt"></i> 300</a>
                           <a href="#modal1" id="saved" class="amber-text text-lighten-1 waves-effect modal-trigger" style="padding:5px; border-radius:2px;">
-                            <i class="far fa-bookmark"></i> 300</a>
+                            <i class="far fa-bookmark"></i> 350</a>
                       </label>
                   </div>
               </div>
@@ -353,7 +398,7 @@
                     </div>
             </div>
             <div class="modal-footer center">
-                <a href="#!" class="modal-close waves-effect waves-yellow btn-flat">View Saved Post</a>
+                <a href="saved.html" class="modal-close waves-effect waves-yellow btn-flat">View Saved Post</a>
               </div>
           </div>
 
@@ -368,7 +413,7 @@
                   </div>
               </div>
               <div class="modal-footer center">
-                <a href="#!" class="modal-close waves-effect waves-yellow btn-flat">View Saved Post</a>
+                <a href="saved.html" class="modal-close waves-effect waves-yellow btn-flat">View Saved Post</a>
               </div>
             </div>
         
@@ -394,28 +439,28 @@
               </li>
               <li>
                   <div class="row waves-effect connect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
-                    <div class="col s4"> <img src="../img/person4.jpg" class="circle" width="50px;"></div>
+                    <div class="col s4"> <img src="../img/p1.jpg" class="circle" width="50px;" height="45px"></div>
                     <div class="col s8">
-                        <label class="black-text text-darken-3">Andrei Laya</label> <br>
-                        <label>Project Manager</label>
+                        <label class="black-text text-darken-3">Sunshine Chua</label> <br>
+                        <label>System analyst</label>
                     </div>
                   </div>
               </li>
               <li>
                   <div class="row waves-effect connect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
-                    <div class="col s4"> <img src="../img/person4.jpg" class="circle" width="50px;"></div>
+                    <div class="col s4"> <img src="../img/p2.jpg" class="circle" width="50px;" height="45px"></div>
                     <div class="col s8">
-                        <label class="black-text text-darken-3">Andrei Laya</label> <br>
-                        <label>Project Manager</label>
+                        <label class="black-text text-darken-3">Louie Roy</label> <br>
+                        <label>Quality Controller</label>
                     </div>
                   </div>
               </li>
               <li>
                   <div class="row waves-effect connect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
-                    <div class="col s4"> <img src="../img/person4.jpg" class="circle" width="50px;"></div>
+                    <div class="col s4"> <img src="../img/p3.jpg" class="circle" width="50px;" height="45px"></div>
                     <div class="col s8">
-                        <label class="black-text text-darken-3">Andrei Laya</label> <br>
-                        <label>Project Manager</label>
+                        <label class="black-text text-darken-3">&nbsp;&nbsp;&nbsp;Amie Lei</label> <br>
+                        <label> &nbsp;&nbsp;&nbsp;Data Analyst</label>
                     </div>
                   </div>
               </li>
@@ -435,6 +480,7 @@
    <!--Import jQuery before materialize.js-->
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    <script type="text/javascript" src="../js/materialize.min.js"></script>
+   <script src="https://cdn.ckeditor.com/ckeditor5/12.0.0/classic/ckeditor.js"></script>
    <script>
       $('.dropdown-trigger').dropdown({
         constrainWidth: false,
@@ -442,6 +488,16 @@
         belowOrigin: true,
         alignment: 'left'
       });
+
+      // CK Editor
+      ClassicEditor
+          .create( document.querySelector( '#body' ) )
+          .then( editor => {
+            console.log( editor );
+          } )
+          .catch( error => {
+            console.error( error );
+      } );
 
       // Add Post
     $('#post-it').click(function(e){
