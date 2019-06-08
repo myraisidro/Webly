@@ -16,50 +16,126 @@
 </head>
 
   <!-- Header -->
- <!-- Header -->
- <header class="main-header">
-    <div class="navbar-fixed">
-    <nav class="white">
-      <div>
-        <div class="nav-wrapper row">
-            <div class="col s12 m4">
-                <a href="#!" class="brand-logo grey-text text-darken-3">Web<span class="ly white-text blue">ly</span>
-                  <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
-                </a>
-                <a href="#!" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
-            </div>
-            <div class="nav-wrapper col s12 m4">    
-                <ul class="hide-on-med-and-down">
-                    <li><a href="index.html" class="grey-text">Posts</a></li>
-                    <li><a href="article.html" class="grey-text">Articles</a></li>
-                    <li><a href="saved.html" class="grey-text">Saved Posts</a></li>
-                </ul>
-            </div>
-            <div class="col s12 m4">
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="" class="waves-effect grey-text text-darken-5">
-                        <i class="far fa-flag"></i>
-                    </a></li>
-                    <li>
-                        <a href="#" class="dropdown-trigger" data-activates='avatar'>
-                            <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      </div>
-    </nav>
-    </div>
+<header class="main-header">
+  <div class="navbar-fixed">
+  <nav class="white">
+    <div class="container">
+      <div class="nav-wrapper row">
+          <div class="col s12 m4">
+              <a href="#!" class="brand-logo grey-text text-darken-3">Web<span class="ly white-text blue">ly</span>
+                <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
+              </a>
+              <a href="#!" data-activates="slide-out" class="button-collapse grey-text text-darken-3"><i class="fa fa-bars"></i></a>
+          </div>
+          <div class="nav-wrapper col s12 m4">    
+              <ul class="hide-on-med-and-down">
+                  <li><a href="index.html" class="actived">Posts</a></li>
+                  <li><a href="article.html" class="grey-text">Articles</a></li>
+                  <li><a href="saved.html" class="grey-text">Saved Posts</a></li>
+              </ul>
+          </div>
+          <div class="col s12 m4">
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="" class="dropdown-trigger waves-effect grey-text text-darken-5" data-activates='notification'>
+                      <i class="far fa-flag"></i>
+                  </a></li>
+                  <li>
+                      <a href="#" class="dropdown-trigger" data-activates='avatar'>
+                          <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
+                      </a>
+                  </li>
+              </ul>
+          </div>
 
-    <!-- Dropdown Structure -->
-    <ul id="avatar" class="dropdown-content right">
+       
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <!-- Dropdown Structure -->
+  <div id="avatar" class="card dropdown-content right" style="font-size: 13px;">
+    <ul>
+      <li class="blue white-text border-bottom" style="padding:0 20px;"><p> <b> Hi John! </b> </p></li>
       <li><a href="profile.html" class="grey-text text-darken-3">My Profile</a></li>
       <li class="divider"></li>
       <li><a href="../login.html" class="grey-text text-darken-3">Logout</a></li>
     </ul>
 
-  </header>
+    
+  </div>
+
+  <!-- Notification -->
+  <div id="notification" class="card dropdown-content right" style="font-size: 13px;">
+    <ul>
+      <li class="blue white-text border-bottom" style="padding:0 20px;"><p> <b> Notification </b> </p></li>
+      <li>
+          <div class="row waves-effect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
+              <div class="col s4"> <img src="../img/person4.jpg" class="circle" width="50px;"></div>
+              <div class="col s8" style="padding: 0 0 0 0px;">
+                  <label class="black-text text-darken-3">Jane Doe</label> <br>
+                  <label class="black-text text-darken-3"><b>Commented on your post</b></label>
+              </div>
+          </div>
+      </li>
+      <li>
+          <div class="row waves-effect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
+              <div class="col s4"> <img src="../img/person2.jpg" class="circle" width="50px;"></div>
+              <div class="col s8">
+                  <label class="black-text text-darken-3">John Smith</label> <br>
+                  <label class="black-text text-darken-3"><b>Saved your post</b></label>
+              </div>
+          </div>
+      </li>
+      <li>
+          <div class="row waves-effect" style="margin-bottom: 0px; padding: 4% 5% 0 5%">
+              <div class="col s4"> <img src="../img/person3.jpg" class="circle" width="50px;"></div>
+              <div class="col s8">
+                  <label class="black-text text-darken-3">Jane Doe</label> <br>
+                  <label class="black-text text-darken-3"><b>Fave your post!</b></label>
+              </div>
+          </div>
+      </li>
+    
+      
+    </ul>
+  </div>
+  
+  <!-- Side Nav -->
+  <ul id="slide-out" class="side-nav" style="transform: translateX(-100%);">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="../img/a.png" style="object-fit: cover; width:100%; height:100%;">
+          </div>
+          <a href="#!">
+            <img class="circle" src="../img/person1.jpg">
+          </a>
+              <span class="white-text">John Doe</span>
+              <span class="white-text name">UI/UX Developer</span>
+        </div>
+      </li>
+      <li>
+        <a href="index.html">Posts</a>
+      </li>
+      <li>
+        <a href="article.html">Article</a>
+      </li>
+      <li>
+        <a href="saved.html">Saved Post</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a class="waves-effect" href="profile.html">My Profile</a>
+      </li>
+      <li>
+        <a class="waves-effect" href="../login.html">Logout</a>
+      </li>
+    </ul>
+
+</header>
 
   
 <!-- Section: Messages -->
@@ -303,6 +379,16 @@
         belowOrigin: true,
         alignment: 'left'
       });
+
+      $('.button-collapse').sideNav({
+        menuWidth: 300,
+        edge: 'left',
+        closeOnClick: false,
+        draggable: true,
+        onOpen: ()=> console.log('Menu Open'),
+        onOpen: ()=> console.log('Menu Close')
+      });
+      
         // Init Modal
         $('.modal').modal();
            // Scrollfire
