@@ -114,7 +114,7 @@
             <div class="card-image">
                 <img src="../img/person1.jpg">
                 <span class="card-title name">John Doe <br>
-                  <span style="font-size: 12px;">UI/UX Developer</span> 
+                  <span style="font-size:12px;">UI/UX Developer</span> 
                 </span> 
             </div>
             <div class="card-content"> 
@@ -571,6 +571,15 @@
         dismissible: true,
         inDuration: 300,
         outDuration: 200,
+      });
+
+      $('.button-collapse').sideNav({
+        menuWidth: 300,
+        edge: 'left',
+        closeOnClick: false,
+        draggable: true,
+        onOpen: ()=> console.log('Menu Open'),
+        onOpen: ()=> console.log('Menu Close')
       });
 
    </script>
