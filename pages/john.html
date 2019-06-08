@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+  <script src="https://kit.fontawesome.com/3931ee8abc.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../css/main.css" />
+  <link type="text/css" rel="stylesheet" href="../css/message.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webly</title>
+</head>
+
+  <!-- Header -->
+ <!-- Header -->
+ <header class="main-header">
+    <div class="navbar-fixed">
+    <nav class="white">
+      <div>
+        <div class="nav-wrapper row">
+            <div class="col s12 m4">
+                <a href="#!" class="brand-logo grey-text text-darken-3">Web<span class="ly white-text blue">ly</span>
+                  <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
+                </a>
+                <a href="#!" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="nav-wrapper col s12 m4">    
+                <ul class="hide-on-med-and-down">
+                    <li><a href="index.html" class="grey-text">Posts</a></li>
+                    <li><a href="article.html" class="grey-text">Articles</a></li>
+                    <li><a href="saved.html" class="grey-text">Saved Posts</a></li>
+                </ul>
+            </div>
+            <div class="col s12 m4">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="" class="waves-effect grey-text text-darken-5">
+                        <i class="far fa-flag"></i>
+                    </a></li>
+                    <li>
+                        <a href="#" class="dropdown-trigger" data-activates='avatar'>
+                            <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+
+    <!-- Dropdown Structure -->
+    <ul id="avatar" class="dropdown-content right">
+      <li><a href="profile.html" class="grey-text text-darken-3">My Profile</a></li>
+      <li class="divider"></li>
+      <li><a href="../login.html" class="grey-text text-darken-3">Logout</a></li>
+    </ul>
+
+  </header>
+
+  
+<!-- Section: Messages -->
+  <div class="card white z-depth-0 card-border" style="position: fixed; margin-top: 0px;">
+      <div class="row">
+        <!-- people list -->
+        <div class="col s12 m2 l4 people-list" id="people-list" style="border-right: 1px solid #e0e0e0 !important;">
+
+          <!-- Search Bar -->
+          <div class="hide-on-small-only">
+              <div class="input-field col s10">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                  <i class="material-icons">close</i>
+              </div>
+              <div class="col s2" style="margin-top: 10px;">
+                <!-- Fixed Action Button -->
+                  <a href="#post-modal" class="modal-trigger btn-floating btn-large red">
+                    <i class="material-icons">add</i>
+                  </a>
+              </div>
+          </div>
+          <div class="hide-on-small-and-down">
+            <table id="chat-list" class="table bordered highlight white grey">
+              <tbody class="chat-list">
+
+                  <tr >
+                      <td width="60px;"><a href="john.html" ><img src="../img/augustus.jpg" class="responsive-img circle"></a></td>
+                      <td  class="active-link hide-on-med-only"> 
+                        <a href="john.html" >
+                          <h6 style="font-size:14px;"> <b>Augustus Waters</b> <label class="green-text">online</label></h6>
+                          <label class="truncate" width="95%" style="margin:0;"> ohh</label>
+                        </a>
+                      </td>
+                    </tr>
+
+                <tr >
+                  <td width="60px;"><a href="dwayne.html" ><img src="../img/dwayne.jpg" class="responsive-img circle"></a></td>
+                  <td  class="active-link hide-on-med-only"> 
+                    <a href="dwayne.html" >
+                      <h6 style="font-size:14px;"> <b>Dwayne Johnson</b> <label class="green-text">online</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> I can eat two large pizzas and a tray of brownies in one sitting.</label>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr >
+                  <td width="60px;"><a href="hannah.html" ><img src="../img/hannah.jpg" class="responsive-img circle" ></td>  
+                  <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
+                    <a href="hannah.html" >
+                      <h6 style="font-size:14px;"><b>Hannah Baker</b> <label class="black-text">3 hrs</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> Welcome to your tape. </label> 
+                    </a>
+                  </td>
+                </tr>
+ 
+                <tr >
+                    <td width="60px;"><a href="arnold.html" ><img src="../img/arnold3.jpg" class="responsive-img circle"></a></td>
+                    <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
+                        <a href="arnold.html" >
+                      <h6 style="font-size:14px;"> <b>Arnold Schwarzenegger</b> <label class="black-text">1 min</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> Hasta la vista, baby! </label>
+                      </a>
+                    </td>
+                </tr>
+              
+                <tr class="active-message">
+                    <td width="60px;"><a href="john.html" ><img src="../img/person2.jpg" class="responsive-img circle"></a></td>
+                    <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
+                        <a href="john.html" >
+                      <h6 style="font-size:14px;"> <b>John Doe</b> <label class="black-text">45 mins ago</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> Sent a photo </label>
+                      </a>
+                    </td>
+                </tr>
+              
+                <tr>
+                    <td width="60px;"><a href="jane.html" ><img src="../img/person3.jpg" class="responsive-img circle"></a></td>
+                    <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
+                        <a href="jane.html" >
+                      <h6 style="font-size:14px;"> <b>Jane Doe</b> <label class="black-text">1 min</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> okay!  </label>
+                      </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px;"><a href="jane.html" ><img src="../img/person3.jpg" class="responsive-img circle"></a></td>
+                    <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
+                        <a href="jane.html" >
+                      <h6 style="font-size:14px;"> <b>Jane Doe</b> <label class="black-text">1 min</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> okay!  </label>
+                      </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60px;"><a href="jane.html" ><img src="../img/person3.jpg" class="responsive-img circle"></a></td>
+                    <td  class="active-link hide-on-med-only" style="padding-right: 20px;"> 
+                        <a href="jane.html" >
+                      <h6 style="font-size:14px;"> <b>Jane Doe</b> <label class="black-text">1 min</label></h6>
+                      <label class="truncate" width="95%" style="margin:0;"> okay!  </label>
+                      </a>
+                    </td>
+                </tr>
+              
+              </tbody>
+            </table>
+        </div>
+
+            
+        </div>
+
+        <!-- Chat -->
+        <div class="chat col s12 m10 l8">
+            <table class="right-align border-bottom">
+                <thead> 
+                    <tr class="border-bottom">
+                      <td width="60px;"><img src="../img/person2.jpg" class="circle responsive-img" width="55px;"></td>
+                        <td ><h6 style="font-weight: bold;">John Doe <br> <label>45 mins ago</label></h6></td>
+                      <td>
+                        <label class="valign-wrapper right">
+                          <i class="fas fa-phone small green-text"></i>
+                        </label>
+                      </td>
+                    </tr>
+                  </thead>
+
+                  <tbody class="chat-section" >
+                    <tr >    
+                      <td>
+                        <div class="row row-1" >
+                          <div class="col s2 m2 l1" width="70px;"><a href="messages.html" ><img src="../img/person2.jpg" class="responsive-img circle"></a></div>
+                          <div class="col s7 m8 l4">
+                              <div class="grey lighten-1 grey-text text-darken-4" style="border-radius: 25px; padding: 15px; margin: 0px;">
+                                I'll send you dollars
+                                    <img class="responsive-img materialboxed" width="650" src="../img/person4.jpg" class="responsive-img">
+                              </div>
+                              <div class="message-data-from right">
+                                <label class="message-data-time right" style="padding-right: 1px;">10:10 AM, Today</label> 
+                              </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr> 
+                     
+                     
+                  </tbody>
+
+            </table>
+
+            <div class="row input-message ">
+                <form class="col s10 m10 l12">
+                    <div class=" input-field col s10 ">
+                      <i class=" material-icons prefix">mode_edit</i>
+                      <input type="text" id="todo"  data-length="120" >
+                      <label for="input_text">Write Message</label>
+                    </div>              
+                    <div class="input-field col s2">
+                      <a class="blue btn waves-effect waves-light" type="submit" name="action">Send
+                        <i class="material-icons right">send</i>
+                      </a>
+                    </div> 
+                </form>
+            </div>
+        </div>
+
+        
+
+      <br>
+  </div>
+
+
+      </div>
+   
+  </div>  <!-- end of row chat -->
+
+
+
+
+
+  <!-- Add Post Modal -->
+  
+  <div id="post-modal" class="modal">
+    <div class="modal-content">
+      <h4>Create Message</h4>
+      <form>
+        <div class="input-field">     
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate" >
+            <label for="icon_prefix">Send to:</label>
+        </div>
+        <div class=" input-field col s10">
+            <i class=" material-icons prefix">mode_edit</i>
+            <input type="text" data-length="120">
+    <label for="input_text">Write Message</label>
+          </div>   
+      </form>
+      <br>
+      <div class="modal-footer">
+        <a href="#send-modal" class="modal-trigger modal-action modal-close  btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+  <!-- Add Post Modal -->
+  
+  <div id="send-modal" class="modal">
+    <div class="modal-content" style="padding: 90px;">
+      <h4 class="flow-text">Message sent! <i class="material-icons small green-text">check</i><h4>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Close</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- <footer class="white grey-text center">
+      <div class="content">
+        www.webly.ph &copy; 2019 Copyright
+      </div>
+  </footer> -->
+
+   <!--Import jQuery before materialize.js-->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="../js/materialize.min.js"></script>
+   <script>
+      $('.dropdown-trigger').dropdown({
+        constrainWidth: false,
+        hover: true,
+        belowOrigin: true,
+        alignment: 'left'
+      });
+        // Init Modal
+        $('.modal').modal();
+           // Scrollfire
+      const options = [
+        {
+          selector: '.row-1', offset: 50, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.row-2', offset: 30, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.row-3', offset: 31, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.row-4', offset: 30, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.row-5', offset: 3, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.row-6', offset: 10, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        }
+      ];
+
+    Materialize.scrollFire(options);
+
+
+   </script>
+   
+</html>

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f7f8f9;
+    font-size: 14px !important;
+}
+
+.card-border{
+    border: 1px solid #e0e0e0 !important;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+u{
+    color: #2196f3;
+    font-size: 12px !important;
+}
+
+/* Navigation */
+.nav-pages{
+    background: #f7f8f9 !important;
+}
+.brand-logo {
+    font-size: 23px !important;
+}
+
+.vert-div{
+    padding-left: 6px;
+}
+
+.ly{
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+nav.white, .nav-pages {
+    box-shadow: 0 0 0 0 !important;
+    border-bottom: 1px solid #eeeeee !important;
+}
+
+.nav-wrapper ul li a:hover{
+    background: transparent !important;
+    color: #2196f3 !important;
+}
+
+.actived{
+   color: #292828;
+   border-bottom: 2px solid #2196f3 !important;
+}
+
+footer .content{
+    padding: 10px;
+}
+
+/* Dropdown Structure */
+.dropdown-content li a{
+    font-size: 14px;
+}
+
+/* Section-Home */
+
+.section-home .name{
+    font-size: 15px;
+    background-image: linear-gradient(rgba(214, 214, 214, 0),rgba(49, 49, 49, 0.46));
+    width: 100%;
+    height: 100%;
+    padding-top: 70% !important;
+}
+
+.section-home .card-profile .card-content {
+    padding: 15px 15px 0 15px !important;
+}
+
+/* Profile */
+.card-profile .card .card-image img{
+    width: 203px !important;
+}
+
+/* Posting */
+.card-tabs ul li a{
+    text-transform: none;
+    font-size: 13px !important;
+}
+
+.tabs .indicator{
+    background-color: #2196f3 !important;
+}
+
+.card-content input:not([type]){
+    border-bottom: none !important;
+}
+.card-content input:not([type]):focus {
+    border-bottom: none !important;
+}
+.card-content input:not([type]):focus:not([readonly]){
+    border-bottom: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.centered-content .card{
+    padding: 10px !important;
+}
+
+.centered-content .card-content .box {
+    border: 2px dashed #eeeeee;
+    padding: 5px;
+    width: 53px;
+}
+
+.centered-content .card-action a:hover{
+    color: #2196f3 !important;
+}
+/* Profile */
+
+/* Posted */
+table.post-card tbody tr td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card-comments input:not([type]){
+    border-bottom: none !important;
+}
+.card-comments input:not([type]):focus {
+    border-bottom: none !important;
+}
+.card-comments input:not([type]):focus:not([readonly]){
+    border-bottom: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Right content */
+.connect:hover{
+    background: #eeeeee;
+}
+
+/* .loader{
+    position: absolute;
+    top: 40%;
+    left: 47%;
+} */
+
+.toast {
+    background-color: #4c84ff !important;
+    color: #f5faff !important; 
+    font-size: 13px !important; 
+}
+
+#modal1.modal {
+    /* background-color: #fafafa;
+    height: 92px;
+    width: 34%;
+    border-radius: 0px; */
+    overflow:hidden;
+}
+
+div#notification {
+    width: 30% !important;
+}
