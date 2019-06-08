@@ -157,3 +157,7 @@ table.post-card tbody tr td{
     border-radius: 0px; */
     overflow:hidden;
 }
+
+div#notification {
+    width: 30% !important;
+}

@@ -2,27 +2,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/3931ee8abc.js"></script>
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="../css/main.css" />
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3931ee8abc.js"></script>
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+<link type="text/css" rel="stylesheet" href="../css/main.css" />
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Webly</title>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Webly</title>
 </head>
 
-  <!-- Header -->
+    <!-- Header -->
 <header class="main-header">
     <div class="navbar-fixed">
     <nav class="white">
-      <div class="container">
+        <div class="container">
         <div class="nav-wrapper row">
             <div class="col s12 m4">
                 <a href="#!" class="brand-logo grey-text text-darken-3">Web<span class="ly white-text blue">ly</span>
-                  <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
+                    <span class="vert-div grey-text text-lighten-1 hide-on-med-and-down">|</span>
                 </a>
                 <a href="#!" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-bars"></i></a>
             </div>
@@ -35,49 +35,302 @@
             </div>
             <div class="col s12 m4">
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="" class="waves-effect grey-text text-darken-5">
+                    <li>
+                    <a href="" class="waves-effect grey-text text-darken-5">
                         <i class="far fa-flag"></i>
-                    </a></li>
+                    </a>
+                    </li>
                     <li>
                         <a href="#" class="dropdown-trigger" data-activates='avatar'>
-                            <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
+                        <img src="../img/person1.jpg" class="waves-effect responsive-img circle" style="width:40px; ">
                         </a>
                     </li>
                 </ul>
             </div>
-
-         
         </div>
-      </div>
+        </div>
     </nav>
     </div>
 
     <!-- Dropdown Structure -->
     <div class="">
     <ul id="avatar" class="dropdown-content right">
-      <li><a href="profile.html" class="grey-text text-darken-3">My Profile</a></li>
-      <li class="divider"></li>
-      <li><a href="../login.html" class="grey-text text-darken-3">Logout</a></li>
+        <li><a href="profile.html" class="grey-text text-darken-3">My Profile</a></li>
+        <li class="divider"></li>
+        <li><a href="../login.html" class="grey-text text-darken-3">Logout</a></li>
     </ul>
-  </header>
+</header>
+<body>
+    
+    <style>
+        li.indicator-item.active{
+            background-color: #4c84ff !important;
+        }
+        li.indicator-item{
+            background-color: rgb(184, 220, 255) !important;
+        }
+        .carousel .indicators {
+        position: relative !important;
+        margin-top: 38% !important;
+        }
+        .carousel.carousel-slider .carousel-item {
+        min-height: 430px !important;
+        }
+        img {
+    border: 0;
+    width: 725px;
+    height: 320px;
+}
+.container {
+    width: 70%;
+    height: 80px;
+}
+    </style>
 
-  <!-- Contents -->
-  <section class="section section-home">
-    <div class="container">
-    </div>
+    <section>
+            <div class="row">
+                    <div class="col s12 hide-on-small-only">
+                        <div class="card">
+                        <div class="card-image">
+                            <img src="../img/newbg.jpg.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
     </section>
 
-  
+    <!-- Contents -->
+    <section class="section section-home" >
+    <div class="container" >
+        <!-- CAROUSEL -->
+        <div class="carousel carousel-slider hide-on-small-only hide-on-med-and-down center" data-indicators="true" style="top: -250px;">
+            <div class="carousel-item " href="#one!"  style="padding: 0 10px;">
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card" >
+                            <div class="card-image">
+                                <img src="../img/cardImg3.jpeg" style="width: 218px; height: 175px">
+                            </div>
+                            <div class="card-content" style="padding:10px">
+                                <p class="grey-text text-darken-1"><b>Creating various designs for your website</b>
+                                    <br> <label>Posted by: Ronald Smith</label> <br></p>
+                                <div class="divider"></div>
+                                <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                            </div>
+                            <div class="card-action">
+                                <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../img/cardImg.jpeg" style="width: 218px; height: 175px">
+                            </div>
+                            <div class="card-content" style="padding:10px">
+                                <p class="grey-text text-darken-1"><b>Creating layoutss in Web Designing</b>
+                                    <br> <label>Posted by: Batman</label> <br></p>
+                                <div class="divider"></div>
+                                <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </>
+                            </div>
+                            <div class="card-action">
+                                <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../img/cardImg2.jpeg" style="width: 218px; height: 175px">
+                            </div>
+                            <div class="card-content" style="padding:10px">
+                                <p class="grey-text text-darken-1"><b>Opinions in Web Designing</b>
+                                    <br> <label>Posted by: Superman</label> <br></p>
+                                <div class="divider"></div>
+                                <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                            </div>
+                            <div class="card-action">
+                                <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="../img/cardImg4.jpeg" style="width: 218px; height: 175px">
+                            </div>
+                            <div class="card-content" style="padding:10px">
+                                <p class="grey-text text-darken-1"><b>Creating layouts in Web Designing</b>
+                                    <br> <label>Posted by: Wonder Woman</label> <br></p>
+                                <div class="divider"></div>
+                                <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                            </div>
+                            <div class="card-action">
+                                <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item black-text" href="#two!" style="padding: 0 10px;">
+                <div class="row">
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/cardImg3.jpeg" style="width: 218px; height: 175px">
+                        </div>
+                        <div class="card-content" style="padding:10px">
+                            <p class="grey-text text-darken-1"><b>How to create your designs</b>
+                                <br> <label>Posted by: Belly-Man</label> <br></p>
+                            <div class="divider"></div>
+                            <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                        </div>
+                        <div class="card-action">
+                            <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/cardImg4.jpeg" style="width: 218px; height: 175px">
+                        </div>
+                        <div class="card-content" style="padding:10px">
+                            <p class="grey-text text-darken-1"><b>What about Creative Web Design?</b>
+                                <br> <label>Posted by: Achararat</label> <br></p>
+                            <div class="divider"></div>
+                            <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                        </div>
+                        <div class="card-action">
+                            <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/cardImg.jpeg" style="width: 218px; height: 175px">
+                        </div>
+                        <div class="card-content" style="padding:10px">
+                            <p class="grey-text text-darken-1"><b>Mga kaechosan ni Batman</b>
+                                <br> <label>Posted by: Joker</label> <br></p>
+                            <div class="divider"></div>
+                            <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                        </div>
+                        <div class="card-action">
+                            <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image"> 
+                            <img src="../img/cardImg2.jpeg" style="width: 218px; height: 175px">
+                        </div>
+                        <div class="card-content" style="padding:10px">
+                            <p class="grey-text text-darken-1"><b>Bakit ang panget mo naman po?</b>
+                                <br> <label>Posted by: Samantha</label> <br></p>
+                            <div class="divider"></div>
+                            <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                        </div>
+                        <div class="card-action">
+                            <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                        </div>
+                    </div>    
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="container hide-on-large-only">
+        <div class="row hide-on-large-only">
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/cardImg3.jpeg">
+                    </div>
+                    <div class="card-content" style="padding:10px">
+                        <p class="grey-text text-darken-3"><b>Creating layouts in Web Designing</b>
+                        <br> <label>Posted by: Ronald Smith</label> <br></p>
+                        <div class="divider"></div>
+                        <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                    </div>
+                    <div class="card-action">
+                        <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/cardImg3.jpeg">
+                    </div>
+                    <div class="card-content" style="padding:10px">
+                        <p class="grey-text text-darken-3"><b>Creating layouts in Web Designing</b>
+                        <br> <label>Posted by: Ronald Smith</label> <br></p>
+                        <div class="divider"></div>
+                        <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                    </div>
+                    <div class="card-action">
+                        <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/cardImg3.jpeg">
+                    </div>
+                    <div class="card-content" style="padding:10px">
+                        <p class="grey-text text-darken-3"><b>Creating layouts in Web Designing</b>
+                        <br> <label>Posted by: Ronald Smith</label> <br></p>
+                        <div class="divider"></div>
+                        <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                    </div>
+                    <div class="card-action">
+                        <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/cardImg3.jpeg">
+                    </div>
+                    <div class="card-content" style="padding:10px">
+                        <p class="grey-text text-darken-3"><b>Creating layouts in Web Designing</b>
+                        <br> <label>Posted by: Ronald Smith</label> <br></p>
+                        <div class="divider"></div>
+                        <label class="grey-text text-darken-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, temporibus ... </label>
+                    </div>
+                    <div class="card-action">
+                        <a href="article1.html" class="blue-text" style="font-size: 13px;">View Post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
     <div class="fixed-action-btn">
-      <a href="messages.html" class="btn-floating btn-large blue pulse">
+        <a href="messages.html" class="btn-floating btn-large blue pulse">
         <i class="fa fa-comment-alt"></i>
-      </a>
-  </div>
+        </a>
+    </div>
+
+
+
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../js/materialize.min.js"></script>
     <script>
+    $(document).ready(function () {
     $('.dropdown-trigger').dropdown({
         constrainWidth: false,
         hover: true,
@@ -85,6 +338,11 @@
         alignment: 'left'
     });
 
-    </script>
+    $('.carousel-slider').carousel({ fullWidth: false });
 
+
+    });
+
+    </script>
+</body>
 </html>
