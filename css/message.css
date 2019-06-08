@@ -1,0 +1,79 @@
+/* section message */
+  
+
+  .chat-with {
+    font-weight: bold;
+    font-size: 16px;
+  }
+    
+  .fa-star {
+    float: right;
+    /* color: #D8DADF; */
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .chat-list{
+    height: 100px;
+    overflow-y: scroll;
+    }
+
+/*Creates table with scrollable tbody*/
+tbody {
+    display:block;
+    /* height:350px; */
+    overflow:auto;
+  
+  }
+  tbody.chat-list {
+    height: 488px;
+  }
+  tbody.chat-section {
+    height: 415px !important;
+    padding-bottom: 0px !important;
+    display: block;
+}
+  
+  thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+  }
+  td, th {
+  
+      padding: 3px -1px;
+      text-align: left;
+  }
+
+  table {
+    width:100%;
+
+  }
+
+  .active-message{
+    background: #e9e7e7;
+  }
+
+.card {
+  /* position: fixed; */
+  margin: -0.5rem 0px;
+  height: 100%;
+}
+.horizontal {
+  float: left;
+  /* width: 10px; */
+  
+  border: 1px solid rgb(185, 185, 180);
+  /* padding: 90px; */
+  /* height: 100vh; */
+ 
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+  }
+
+b{
+  color: black;
+}
