@@ -18,6 +18,72 @@
 </head>
 
 <body>
+  <!-- Header -->
+  <header class="main-header">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav wrapper">
+              
+            <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="index.html" class="grey-text text-darken-3">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="grey-text text-darken-3">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="grey-text text-darken-3">Contact Us</a>
+              </li>
+              <li>
+                <a href="https://facebook.com" class="grey-text text-darken-3">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                  <a href="https://twitter.com" class="grey-text text-darken-3">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="https://instagram.com" class="grey-text text-darken-3">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+              </li>
+            </ul>
+            <ul class="side-nav" id="mobile-nav">
+                <span class="grey-text text-darken-3"><span style="font-size: 30px;">Web</span>
+                <span style="font-size: 30px;"><span class="white-text blue" style="border-radius:5px;">ly </span>
+                <span class="vert-div grey-text text-lighten-1">&nbsp;|</span></span>
+                </span>
+              <li>
+                <div class="divider"></div>
+              </li>
+              <li>
+                <a href="index.html">
+                <i class="fa fa-home grey-text text-darken-4"></i> Home
+                </a>
+              </li>
+              <li>
+                <a href="#about">
+                <i class="fa fa-cog grey-text text-darken-4"></i> About
+                </a>
+              </li>
+              <li>
+                <a href="#contact">
+                <i class="fa fa-phone grey-text text-darken-4"></i> Contact Us
+                </a>
+              </li>
+              <li>
+                <div class="divider"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
         
   <!-- Login Form -->
   <section class="section section-login">
@@ -88,8 +154,7 @@
                               <label for="confirm password">Confirm Password</label>
                           </div>
                           <p class="left">
-                              <input type="checkbox" id="terms" class="filled-in"><label for="terms">I have <span style="color:rgb(40, 157, 204);">read</span> and <span style="color:rgb(40, 157, 204);">agree</span>
-                                 to the <span style="text-decoration:underline;">Terms of Use &amp; <span style="text-decoration:underline;">Privacy Policy</span></span></label>
+                              <input type="checkbox" id="terms" class="filled-in"><label for="terms">I have <span style="color:rgb(40, 157, 204);">read</span> and <span style="color:rgb(40, 157, 204);">agree</span>to the <span style="text-decoration:underline;">Terms of Use &amp; <span style="text-decoration:underline;">Privacy Policy</span></span></label>
                           </p>
                           <div class="right">
                               <a href="index.html" class="btn btn-large blue btn-extend waves-effect waves-light signup waves-input-wrapper"><input type="submit" value="Signup" class="waves-button-input"></a>
@@ -100,9 +165,98 @@
           </div>
         </div>
       </div>
-    </section>
+    </section><br><br><br>
+      <!-- About Us -->
+      <a name="about"></a>
+      <br><br>
+      <section class="section section-language about lighten-4">
+          <div class="container">
+            <div class="row"><br><br><br>
+              <h4 class="center">ABOUT US<h4>
+                <p style="font-size:15px;" class="center">Webly is one of the fastest growing social networks worldwide. This is a website where every user can make registration and create account for free. By creating Webly profile, the user can fill different information about himself and share content (text, pictures, music, video etc.) with others.</p><br><br>
+                <p class="center">THE DEVELOPERS</p>
+                <div class="row" style="margin-left:27px;">
+                  <div class="col s1 offset-s1">
+                    <img src="img/pizza.png" alt="" class="responsive-img">
+                    <h6 class="center">Jane</h6>
+                  </div>
+                  <div class="col s1 offset-s1">
+                    <img src="img/tickect.png" alt="" class="responsive-img">
+                    <h6 class="center">Kim</h6>
+                  </div>
+                  <div class="col s1 offset-s1">
+                    <img src="img/eye.png" alt="" class="responsive-img">
+                    <h6 class="center">Myra</h6>
+                  </div>
+                  <div class="col s1 offset-s1">
+                    <img src="img/pen.png" alt="" class="responsive-img">
+                    <h6 class="center">Cyrille</h6>
+                  </div>
+                  <div class="col s1 offset-s1">
+                    <img src="img/cat.png" alt="" class="responsive-img">
+                    <h6 class="center">Sam</h6>
+                  </div>
+                </div>
+                <br>
+                
+            </div>
+          </div>
+        </section>
+        
+        <!-- Contact Us  -->
+        <a name="contact"></a>
+  <section class="section section-about transparent lighten-4">
+      <div class="container">
+        <div class="row"><br>
+          <div class="col s12 m6 white">
+            <h4><span class="blue-text text-darken-1"> Contact</span> Us <i class="fa fa-phone  blue-text"></i></h4>
+            
+            <div class="input-field">
+                  <input type="text" id="name" class="validate">
+                  <label data-error="Invalid" data-success="Valid" for="name">Your Name</label>
+            </div>
+            <div class="input-field">
+                <input type="email" id="email" class="validate">
+                <label data-error="Invalid" data-success="Valid" for="email">Email</label>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                  <label for="textarea2">Message</label>
+                </div>
+            </div>
+            <div style="margin-bottom:20px;margin-top:-10px;">
+                <a id="send" class="btn  red btn-extend waves-effect waves-light waves-input-wrapper">Send</a>
+            </div>  
+          </div>
+          <div class="col s12 m6">
+              <br>
+            <img src="img/uu.png" alt="" class="responsive-img">
+          </div>
+          <br>
+
+      </div>
+      </div> 
+      <div class="container white-text">
+            <div class="col s2">
+                <h6><a class="fa fa-map-marker-alt"></a> Creative Web Design</h6>
+            </div>
+            <div class="col s2">
+                <h6><a class="fa fa-phone"></a> +63-912345679</h6>
+            </div>
+            <div class="col s2">
+                <h6><a class="fa fa-envelope"></a> CreativeWebDesign-Webly.com</h6>
+            </div>
+      
+      </div>
+    </section><br>
+   
 
 
+      <!-- Footer -->
+      <footer class=" white-text center"  style="background-color: #1a7b91;">
+          <div class="content">www.webly.ph &copy; 2019 Copyright</div>
+      </footer>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -116,6 +270,15 @@
         $('.signup').click(function(){
          alert("Account Successfully Created, Please Log in");
         });
+
+        $('.button-collapse').sideNav();
+
+        //RUN TOAST
+      $('#send').click(function() {
+        Materialize.toast('SENT', 3000);
+      });
+
+
     });
   </script>
 </body>
